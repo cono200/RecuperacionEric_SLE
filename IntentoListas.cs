@@ -114,19 +114,28 @@ namespace RecuperacionEric_SLE
 
         public void Busqueda(string buscar)
         {
-            Console.WriteLine("--------------------------------");
+            
             Nodo actual = primerNodo;
-            bool encontrado = false;
+            bool encontrado=false;
+            string guardar;
             while (actual != null)
             {
-                string aber = actual.Valor._marca;
-                aber.CompareTo(buscar);
-                
-                Console.WriteLine("Los carros son " + buscar);
-                break;
-
+                if (actual.Valor._marca == buscar)
+                {
+                    encontrado = true;
+                    guardar = actual.Valor._marca;
+                }
+                else
+                {
+                    actual = actual.Siguiente;
+                }
+                Console.WriteLine(guardar);
             }
-            Console.WriteLine("No ai");
+            if (!encontrado)
+            {
+                Console.WriteLine("No ai");
+            }
+           // Console.WriteLine("No ai");
 
 
         }
