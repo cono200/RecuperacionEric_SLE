@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecuperacionEric_SLE", "RecuperacionEric_SLE.csproj", "{3CA978AA-5394-4D1E-9B4F-D29C57E94E50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CA978AA-5394-4D1E-9B4F-D29C57E94E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA978AA-5394-4D1E-9B4F-D29C57E94E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA978AA-5394-4D1E-9B4F-D29C57E94E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA978AA-5394-4D1E-9B4F-D29C57E94E50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD5904AC-D6B1-4EFE-916D-18BC9E1A67DB}
+	EndGlobalSection
+EndGlobal
